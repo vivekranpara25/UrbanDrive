@@ -1,4 +1,4 @@
-# Road Trip Booking Platform
+# UrbanDrive Car Rental Project
 
 A modern car rental booking platform built with React, TypeScript, and Node.js.
 
