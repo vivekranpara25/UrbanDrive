@@ -1,0 +1,28 @@
+{
+  "name": "road-trip-booking-platform-main",
+  "version": "1.0.0",
+  "description": "Car Rental Platform with Frontend and Backend",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix server\"",
+    "install-all": "npm install && npm install --prefix frontend && npm install --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahidharchowdary2004/Online-Car-Rental.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mahidharchowdary2004/Online-Car-Rental/issues"
+  },
+  "homepage": "https://github.com/Mahidharchowdary2004/Online-Car-Rental#readme",
+  "dependencies": {
+    "multer": "^2.0.2",
+    "puppeteer": "^24.16.0"
+  }
+}
